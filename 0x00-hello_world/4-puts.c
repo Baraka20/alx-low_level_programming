@@ -1,6 +1,8 @@
 #include <stdio.h>
 /*
-*main - Entry point 
+*main - Entry point
+*Descriptiion: This program uses puts
+*Return:Always 0 (success) 
 */
 int main(void)
 {
