@@ -2,10 +2,9 @@
 
 
 /*
-
 *this function prints a string!
-
-*/int main(void)
+*/
+int main(void)
 
 {
 
