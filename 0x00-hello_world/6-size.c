@@ -1,10 +1,8 @@
 #include <stdio.h>
 
 /*
- * main - entry
- *
- * Description: prints the size of various types on the computer it is compiled
- *
+ * main - Entry point
+ * 
  * Return: Always 0 (Success)
  *
  */
