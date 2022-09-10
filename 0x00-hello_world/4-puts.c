@@ -2,7 +2,7 @@
 
 
 /*
-*this function prints a string!
+*Description: this function prints a string!
 */
 int main(void)
 
