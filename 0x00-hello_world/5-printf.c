@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
-*main - Entry pont
-*/int main(void)
+*main - Entry point
+*not allowed to use the function puts*/int main(void)
 {printf("with proper grammar, but the outcome is a piece of art,\n"
 return (0);
 }
