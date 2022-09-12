@@ -10,11 +10,10 @@
 int i;
 char string[] = "0123456789abcdef";
 int len = strlen(string);
-char i = 0;
-while (char i<len)
+
+for (i = 0; i < len; i++)
 {
-putchar(i);
-i++;
+putchar(string[i]);
 }
 putchar('\n');
 return (0);
