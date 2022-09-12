@@ -2,6 +2,7 @@
 
 /*
  *Description:this function prints a string!
+ *Return: Always 0 (Success)
 */
 int main(void)
 
