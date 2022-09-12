@@ -1,13 +1,14 @@
 #include  <stdio.h>
 
-/**numbers
+/*
+*numbers
 *\int main(avoid)
 {
-int i
+int i;
 for (i, i<10, i++)
 {
 printf("%i",i)
 }
-printf('\n');
+printf("\n");
 return (0);
 }
