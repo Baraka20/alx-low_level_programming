@@ -21,9 +21,10 @@ else if (m == 0)
 {
 printf("last digit of the number %i is %i and is zero\n", n, m);
 }
-else if (m < 6, m != 0)
+else if (m < 6 && m != 0)
 {
-printf("last digit of the number %i is %i  and is less than 6 and not 0\n", n, m); }
+printf("last digit of the number %i is %i  and is less than 6 and not 0\n", n, m);
+}
 
 return (0);
 }
