@@ -3,11 +3,11 @@
  *main - Entry point
  *
  *Return: Always 0 (Success)
-*/
-int main(void)
+*/int main(void)
 {
-char alphabet = 'a';
-while (alphabet <= 'z')
+char alphabet;
+
+for (alphabet = 'a';alphabet <= 'z'; alphabet++)
 
 {
 if (alphabet == 'q')
@@ -16,7 +16,6 @@ if (alphabet == 'e')
 continue;
 
 putchar (alphabet);
-alphabet++;
 }
 
 putchar('\n');
