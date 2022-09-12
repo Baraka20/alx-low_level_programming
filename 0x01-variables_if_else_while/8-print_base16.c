@@ -1,5 +1,5 @@
 #include  <stdio.h>
-
+#include <string.h>
 /*
 *main - Entry point
 *
@@ -11,7 +11,7 @@ int i;
 char string[] = "0123456789abcdef";
 int len = strlen(string);
 char i = 0;
-while char (i<len)
+while (char i<len)
 {
 putchar(i);
 i++;
