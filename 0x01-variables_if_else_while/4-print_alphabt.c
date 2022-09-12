@@ -15,7 +15,7 @@ continue;
 if (alphabet == 'e')
 continue;
 
-putchar (alphabe)t;
+putchar (alphabet);
 alphabet++;
 }
 
