@@ -1,9 +1,8 @@
 #include  <stdio.h>
 
 /*
-*main - Entry point
-*Return: Always 0 (Success)
-*\ int main(avoid)
+*numbers
+*\int main(avoid)
 {
 int i
 for (i, i<10, i++)
