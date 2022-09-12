@@ -7,11 +7,14 @@
 */int main(void)
 
 {
-char base_16 = 48;
-while (base_16 <= 97)
+int i;
+char string[] = "0123456789abcdef";
+int len = strlen(string);
+char i = 0;
+while char (i<len)
 {
-putchar(base_16);
-base_16++;
+putchar(i);
+i++;
 }
 putchar('\n');
 return (0);
