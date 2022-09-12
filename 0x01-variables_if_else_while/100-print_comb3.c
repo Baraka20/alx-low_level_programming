@@ -3,23 +3,49 @@
 /*
 *main - Entry point
 *
+*Return: Always 0 (Success)
 */int main(void)
+
 {
+
 int i, j;
-for (i = 0; i < 9; i++);
-{
-for (j = i + 1; j < 10; j++)
-{
-putchar ((i % 10) + '0');
-putchar ((j % 10) + '0');
 
-if (i == 8 && j == 9)
-continue;
+i = 48;
 
-putchar(',');
-putchar(' ');
+j = 48;
+
+while (i < 58)
+
+{
+
+j = i + 1;
+
+while (j < 58)
+
+{
+
+putchar(i);
+
+putchar(j);
+
+if (i != 56 || j != 57)
+
+{
+
+putchar(44);
+
+putchar(32);
+
 }
+
+j++;
+
 }
+
+i++;
+
+}
+
 putchar('\n');
+
 return (0);
-}
