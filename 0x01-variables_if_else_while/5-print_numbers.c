@@ -1,7 +1,6 @@
 #include  <stdio.h>
 
-/*
-*numbers
+/**numbers
 *\int main(avoid)
 {
 int i
