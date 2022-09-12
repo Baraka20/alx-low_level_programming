@@ -13,13 +13,13 @@ char upper_case = 'A';
 while (lower_case <= 'z')
 {
 putchar(lower_case);
-alphabet++;
+lower_case++;
 }
 
 while (upper_case <= 'Z')
 {
 putchar(upper_case);
-alphabet++
+upper_case++;
 }
 
 putchar('\n');
