@@ -10,12 +10,12 @@
 char alphabet;
 int i;
 
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
-{
 for (i = 0; i <= 9; i++)
 {
-}
+for (alphabet = 'a'; alpabet <= 'z'; alphabet++)
+{
 _putchar(alphabet);
+}
 }
 _putchar('\n');
 }
