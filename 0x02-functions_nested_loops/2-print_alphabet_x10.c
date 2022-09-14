@@ -17,5 +17,5 @@ for (i = 0; i <= 9; i++)
 }
 _putchar(alphabet);
 }
-_putchar('\n')
+_putchar('\n');
 }
