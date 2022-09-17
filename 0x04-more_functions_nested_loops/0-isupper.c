@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /*
 *checks for uppercase
@@ -10,5 +11,9 @@ If((c >= 'A') && (c <= 'Z'))
 {
 Return(1);
 }
+else
+{
 Return(0);
+}
+
 }
