@@ -7,7 +7,7 @@
 *Return: 0 if otherwise
 */int _isupper(int c)
 {
-If((c >= 'A') && (c <= 'Z'))
+if((c >= 'A') && (c <= 'Z'))
 {
 Return(1);
 }
