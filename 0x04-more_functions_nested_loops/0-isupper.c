@@ -7,7 +7,11 @@
 */int _isupper(int c)
 {
 If((c >= 'A') && (c <= 'Z'))
+{
 Return(1);
+}
 else
+{
 Return(0);
+}
 }
