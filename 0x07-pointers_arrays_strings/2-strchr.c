@@ -15,7 +15,8 @@ for (i = 0; *(s + i); i++)
 if (*(s + i) == c)
 return (s + i);
 }
-if (*(s + 1) == c)
-return  (s+1);
+else
+{
 return (0);
+}
 }
