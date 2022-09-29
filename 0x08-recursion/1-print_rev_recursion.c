@@ -1,4 +1,4 @@
-#incude "main.h"
+#include "main.h"
 
 /**
 *_print_rev_recursion - prints string reverse  recursively
@@ -7,7 +7,7 @@
 * Return: vod
 */
 
-void _pr:int_rev_recursion(char *s)
+void _print_rev_recursion(char *s)
 {
 if (*s == '\0')
 return;
