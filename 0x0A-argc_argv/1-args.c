@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 /**
-* main - prints name of program
-* @argc: shows number of command line arguments
-* @argv: contains the command line arguments
+* main - prints the name number of arguments passed to it
+* @argc: number of arguments passed to the function
+* @argv: argument vector of pointers to strings
 *
 * Return: always 0
 */
 
-int main(int argc, char *argv[] __attribute__ ((unused)))
+int main(int argc, char *argv[] __attribute__((unused)))
 {
-printf("argc = %d\n", argc - 1);
+printf("%d\n", argc - 1);
 return (0);
 }
