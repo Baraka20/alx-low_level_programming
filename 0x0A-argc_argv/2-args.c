@@ -14,7 +14,8 @@ int i;
 printf("Let's see what is in argv[]\n");
 for (i = 0; i < argc; i++)
 {
-printf("argv[%d] = %s\n", i, argv[i]);
+printf(%s\n, i, argv[i]);
 }
 return (0);
 }
+
