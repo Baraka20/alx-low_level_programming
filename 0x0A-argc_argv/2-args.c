@@ -7,11 +7,9 @@
 *
 * Return: always 0
 */
-
 int main(int argc, char *argv[])
 {
 int i;
-printf("Let's see what is in argv[]\n");
 for (i = 0; i < argc; i++)
 {
 printf("%s\n", argv[i]);
