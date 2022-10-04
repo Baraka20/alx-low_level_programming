@@ -2,27 +2,23 @@
 #include <stdlib.h>
 
 /**
-* main - prints the name of the program
-* @argc: shows number of command line arguments
-* @argv: contains command line arguments
-* Return: 0 always
+* main - program that prints its name, followed by a new line
+* @argc: argument that counts argument input
+* @argv: argument that stores the strings in an array of char* (strings)
+* Return: 0
 */
-
 int main(int argc, char *argv[])
-int result, num1, num2;
 {
-if (argc(i) != 3)
-{
-printf("Error");
-return (-1);
-}
+int num_1, num_2, mul;
+if (argc != 3)
+printf("Error\n");
 else
 {
-num1 = atoi argv[1];
-num2 = atoi argv[3];
-result = num1 * num2;
-
+num_1 = atoi(argv[1]);
+num_2 = atoi(argv[2]);
+mul = num_1 *num_2;
 printf("%d\n", mul);
-return (0);
 }
+return (0);
+
 }
