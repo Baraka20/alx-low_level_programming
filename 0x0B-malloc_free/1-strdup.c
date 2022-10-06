@@ -10,22 +10,20 @@
 *or a pointer to the duplicated string
 */
 char *_strdup(char *str)
-
 {
-char (ptStr);
-int str_len = 0;
-while (str[str_len] != '\0')
-{
-str_len++;
-}
-ptStr = malloc((str_len *size of(char)) + 1);
-
-if (ptStr == NULL)
+char *cpy;
+int index, len;
+if (str == NULL)
 return (NULL);
-
-int count;
-for (count = 0; str[count] = '\0'; count++)
-ptStr[count] = str[count];
-
-return (ptStr);
+for (index = 0; str[index]; index++)
+len++;
+cpy = malloc(sizeof(char) * (len + 1));
+if (cpy == NULL)
+return (NULL);
+for (index = 0; str[index]; index++)
+{
+cpy[index] = str[index];
+}
+cpy[len] = '\0';
+return (cpy);
 }
